@@ -116,41 +116,41 @@ if __name__ == '__main__':
     target = args.target
 
     if 'bpd_multi' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_multi_7825.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_multi_7855.pth'
+        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_0.pth'
+        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_0.pth'
     elif 'bpd_bi1' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_bi1_8952.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_bi1_8966.pth'
+        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_1.pth'
+        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_1.pth'
     elif 'bpd_bi2' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_bi2_8240.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_bi2_8253.pth'
+        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_2.pth'
+        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_2.pth'
     elif 'bpd_bi3' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_bi3_8227.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_bi3_8230.pth'
-    elif 'rds1_multi' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_multi_7491.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_multi_7579.pth'
-    elif 'rds2_multi' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_multi_7762.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_multi_7723.pth'
-    elif 'rds1_bi1' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi1_8225.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi1_8307.pth'
-    elif 'rds1_bi2' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi2_7283.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi2_7311.pth'
-    elif 'rds1_bi3' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi3_7575.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi3_7606.pth'
-    elif 'rds2_bi1' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi1_8869.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi1_8877.pth'
-    elif 'rds2_bi2' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi2_8226.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi2_8215.pth'
-    elif 'rds2_bi3' in target:
-        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi3_8133.pth'
-        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi3_8155.pth'
+        model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/bpd_3.pth'
+        model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_bpd_3.pth'
+#     elif 'rds1_multi' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_multi.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_multi.pth'
+#     elif 'rds2_multi' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_multi.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_multi.pth'
+#     elif 'rds1_bi1' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi1.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi1.pth'
+#     elif 'rds1_bi2' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi2.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi2.pth'
+#     elif 'rds1_bi3' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds1_bi3.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds1_bi3.pth'
+#     elif 'rds2_bi1' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi1.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi1.pth'
+#     elif 'rds2_bi2' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi2.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi2.pth'
+#     elif 'rds2_bi3' in target:
+#         model1_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/rds2_bi3.pth'
+#         model2_weight = '/home/daehyun/mnt/nas12/KNN_bpd/weight_final/model2_rds2_bi3.pth'
     else:
         print("NO TARGET...")
 
